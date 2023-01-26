@@ -35,7 +35,7 @@ export default function Home() {
           introduction
         </h1>
 
-        <h1 className="mt-3 lg:max-w-2xl animate-slide-up font-monospace">
+        <h1 className="mt-3 lg:max-w-2xl animate-slide-down font-monospace">
           Hi, I&#39;m Keaton. I am a self-taught software engineer from Florida.
           I am currently pursuing full-stack web development to create stunning
           user experiences on the front-end, and scalable and secure
@@ -46,7 +46,7 @@ export default function Home() {
           experience
         </h1>
 
-        <div className="flex flex-col items-center justify-center text-center max-sm:w-96 p-1 mt-5">
+        <div className="flex flex-col items-center justify-center text-center max-sm:w-96 p-1 mt-5 animate-slide-down">
           <Job
             title="Software Engineer @ Fractal"
             when="January 2023 - Present"
@@ -63,7 +63,7 @@ export default function Home() {
           how i do it
         </h1>
 
-        <div className="flex flex-wrap flex-row justify-center p-1 rounded-md bg-white/20 mt-5 mb-12 animate-slide-up">
+        <div className="flex flex-wrap flex-row justify-center p-1 rounded-md bg-white/20 mt-5 mb-12 animate-slide-down">
           <Technology icon={SiReact} />
           <Technology icon={SiTypescript} />
           <Technology icon={SiNextdotjs} />
