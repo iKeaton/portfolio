@@ -64,10 +64,10 @@ export default function Home() {
         </h1>
 
         <div className="flex flex-wrap flex-row justify-center p-1 rounded-md bg-white/20 mt-5 mb-12 animate-slide-up">
-          <Technology icon={SiReact} name="React" />
-          <Technology icon={SiTypescript} name="TypeScript" />
-          <Technology icon={SiNextdotjs} name="Next.js" />
-          <Technology icon={SiTailwindcss} name="TailwindCSS" />
+          <Technology icon={SiReact} />
+          <Technology icon={SiTypescript} />
+          <Technology icon={SiNextdotjs} />
+          <Technology icon={SiTailwindcss} />
         </div>
       </div>
 
