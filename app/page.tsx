@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import Clock from "react-live-clock";
 import { Suspense } from "react";
 import { Technology } from "../components/Technology";
@@ -60,10 +61,10 @@ export default function Home() {
         </div>
 
         <h1 className="mt-10 font-semibold text-3xl animate-slide-up">
-          how i do it
+          technologies
         </h1>
 
-        <div className="flex flex-wrap flex-row justify-center p-1 rounded-md bg-white/20 mt-5 mb-12 animate-slide-up">
+        <div className="flex flex-wrap flex-row justify-center p-1 bg-gray-200/50 drop-shadow-md px-3 py-1 rounded-lg border border-gray-300 mt-5 mb-12 animate-slide-up">
           <Technology icon={SiReact} />
           <Technology icon={SiTypescript} />
           <Technology icon={SiNextdotjs} />
@@ -71,7 +72,13 @@ export default function Home() {
         </div>
       </div>
 
-
+      <footer className="flex pb-5 items-center justify-center font-monospace animate-slide-up">
+          <h1>this website is open source on my{' '}</h1>
+          <Link href="https://github.com/iKeaton/portfolio" target='_blank'>
+            <h1 className="ml-2 text-black-500 hover:text-black-700 underline">github</h1>
+          </Link>
+          .
+      </footer>
     </div>
   );
 }
